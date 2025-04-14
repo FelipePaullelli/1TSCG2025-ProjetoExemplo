@@ -1,7 +1,4 @@
 
- // Programa de aplicação que adminsitra o cadastro de produtos
- // Incluiu e consulta dados de produtos.
-
 public class Produto {
 
 	private double peso;
@@ -11,16 +8,16 @@ public class Produto {
 		
 	}
 	
-	public Produto(int double peso, double altura) {
+	public Produto(double peso, double altura) {
 		this.peso=peso;
 		this.altura=altura;
 	}
 	
-	public int double getPeso() {
+	public double getPeso() {
 		return peso;
 	}
 	
-	public void setPeso(double int peso) {
+	public void setPeso(double peso) {
 		this.peso = peso;
 	}
 	
